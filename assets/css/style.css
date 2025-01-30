@@ -15,6 +15,33 @@ html {
     clear: both;
 }
 
+.text-white {
+    color: #fff !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.col-third {
+    width: 33.33%;
+}
+
 #main {}
 
 #header {
@@ -174,8 +201,8 @@ html {
 }
 
 #content .member-item {
-    float: left;
-    width: 33.33%;
+    /* float: left;
+    width: 33.33%; used col, col-third */
     text-align: center;
 }
 
@@ -233,16 +260,16 @@ html {
 .places-list {
     margin-top: 32px;
     /* fix excess padding left and right */
-    margin-left: -8px;
-    margin-right: -8px;
+    /* margin-left: -8px;
+    margin-right: -8px; : used row class*/
     margin-bottom: 48px;
 }
 
-.place-item {
-    float: left;
-    width: 33.33%;
-    padding: 0 8px;
-}
+/* .place-item { : used col-third class */
+/* float: left; : used col class*/
+/* width: 33.33%; */
+/* padding: 0 8px; */
+/* } */
 
 .place-img {
     width: 100%;
